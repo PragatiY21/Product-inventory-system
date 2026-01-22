@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 80000,
+      "quantity": 5,
+      "status": "In Stock"
+    },
+    {
+      "id": 2,
+      "name": "Chair",
+      "category": "Furniture",
+      "price": 3000,
+      "quantity": 1,
+      "status": "Low Stock"
+    },
+    {
+      "id": 3,
+      "name": "Mobile",
+      "category": "Electronics",
+      "price": 25000,
+      "quantity": 0,
+      "status": "Out of Stock"
+    }
+  ]
+  

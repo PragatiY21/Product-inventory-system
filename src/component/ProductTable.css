@@ -1,0 +1,97 @@
+/* Page wrapper */
+.page-container {
+    padding: 24px;
+    background: #f5f7fa;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  /* Add Product button */
+  .add-product-btn {
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #1e4fd6;
+  }
+  
+  /* ---------------- TABLE ---------------- */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  thead {
+    background-color: #f1f5f9;
+  }
+  
+  th,
+  td {
+    padding: 12px 16px;
+    text-align: left;
+  }
+  
+  th {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #475569;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9fafb;
+  }
+  
+  /* Quantity input */
+  td input {
+    width: 70px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: 1px solid #cbd5e1;
+    font-size: 0.9rem;
+  }
+  
+  /* Action buttons */
+  button {
+    padding: 6px 10px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  button:first-of-type {
+    background-color: #10b981; /* Edit */
+    color: #ffffff;
+  }
+  
+  button:last-of-type {
+    background-color: #ef4444; /* Delete */
+    color: #ffffff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    th,
+    td {
+      padding: 10px;
+    }
+  }
+  
